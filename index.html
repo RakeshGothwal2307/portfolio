@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Hub</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand brand-font" href="#home"><i class="fas fa-code text-primary me-2"></i>Rakesh Gothwal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-glow-2"></div>
+        <div class="container hero-content">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7 fade-up">
+                    <h1 class="hero-title">
+                        Rakesh <br>
+                        <span class="gradient-text">Gothwal</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        I am an experienced backend developer with 3.6 years of experience in developing and maintaining high-performance systems. Let's create something spectacular together.
+                    </p>
+
+                    <div class="d-flex align-items-center mb-5">
+                        <a href="Rakesh_Gothwal.pdf" target="_blank" class="btn btn-custom-primary me-4">View Resume</a>
+                        <div class="social-links">
+                            <a href="https://github.com/RakeshGothwal2307" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rakesh-gothwal-3152a61a2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block fade-up" style="transition-delay: 0.2s">
+                    <div class="position-relative" style="height: 400px; width: 100%;">
+                        <!-- Minimalist decorative elements as hero visual -->
+                        <div class="position-absolute floating-element"
+                            style="width: 15rem; height: 18rem; border-radius: 20px; background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(2,6,23,0.5)); border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(10px); top: 10%; right: 10%; z-index: 2;">
+                        </div>
+                        <div class="position-absolute floating-element-delayed"
+                            style="width: 12rem; height: 12rem; border-radius: 50%; background: linear-gradient(135deg, rgba(236,72,153,0.2), rgba(2,6,23,0.5)); border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(10px); bottom: 10%; left: 10%; z-index: 1;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">About Me</h2>
+            <div class="row mt-5">
+                <div class="col-lg-12 fade-up">
+                    <h3 class="mb-4 brand-font">Backend Developer</h3>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                        I am an experienced backend developer with 3.6 years of experience in developing and maintaining high-performance systems. My goal is to embrace new challenges while leveraging my interpersonal skills to contribute to both the growth of the organization and my career in this innovative field.
+                    </p>
+                    <div class="row my-4">
+                        <div class="col-sm-6 mb-3">
+                            <ul class="list-unstyled text-light">
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Birthday:</strong>
+                                    15-Nov-1999</li>
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Phone:</strong>
+                                    +91-8955512533</li>
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Address:</strong> Khora bisal, Jaipur-302012, Rajasthan, India</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled text-light">
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Degree:</strong> B.CA</li>
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Email:</strong> <a
+                                        href="mailto:rakeshgothwal2307@gmail.com"
+                                        class="text-light text-decoration-none">rakeshgothwal2307@gmail.com</a></li>
+                                <li class="mb-2"><strong class="text-white"><i
+                                            class="fas fa-chevron-right text-primary me-2"></i>Languages:</strong> English & Hindi
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Core Skills</h2>
+            <div class="row mt-5">
+                <div class="col-lg-12 fade-up">
+                    <div class="p-5"
+                        style="background: rgba(255,255,255,0.02); border-radius: 20px; border: 1px solid var(--glass-border);">
+                        <div class="row">
+                            <div class="col-md-6 mb-4 mb-md-0 pe-md-4">
+                                <div class="mb-4">
+                                    <div class="d-flex justify-content-between mb-2"><span>PHP</span><span>90%</span>
+                                    </div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 90%; background: var(--primary); border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>Laravel</span><span>95%</span></div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 95%; background: var(--secondary); border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-0">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>Restful APIs</span><span>95%</span></div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 95%; background: #10b981; border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ps-md-4">
+                                <div class="mb-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>HTML/CSS & JavaScript</span><span>90%</span></div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 90%; background: #f59e0b; border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>MySQL & PostgreSQL</span><span>90%</span></div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 90%; background: #06b6d4; border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-0">
+                                    <div class="d-flex justify-content-between mb-2"><span>Git & GitHub</span><span>85%</span>
+                                    </div>
+                                    <div class="progress"
+                                        style="height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                        <div class="progress-bar"
+                                            style="width: 85%; background: #8b5cf6; border-radius: 4px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section (Education & Experience) -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Resume</h2>
+            <div class="row mt-5 justify-content-center">
+
+                <!-- Education -->
+                <div class="col-lg-9 fade-up mb-5">
+                    <h3 class="mb-4 brand-font"><i class="fas fa-graduation-cap text-primary me-3"></i>Education</h3>
+
+                    <div class="resume-item"
+                        style="border-left: 2px solid var(--primary); padding-left: 30px; position: relative; padding-bottom: 40px;">
+                        <span class="resume-dot"
+                            style="position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--bg-darker); border: 2px solid var(--primary); left: -9px; top: 0;"></span>
+                        <h4 class="brand-font" style="font-size: 1.25rem;">B.CA (Bachelor of Computer Application)</h4>
+                        <h5
+                            style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.05); display: inline-block; padding: 4px 12px; border-radius: 20px;">
+                            Aug 2019 - Jul 2021</h5>
+                        <p class="text-light mb-2"><em>Jaipur National University, Jaipur</em></p>
+                        <p class="text-light" style="line-height: 1.6; margin-bottom: 0;">Acquired core concepts of computer applications, programming foundation, and software development methodologies.</p>
+                    </div>
+
+                    <div class="resume-item"
+                        style="border-left: 2px solid var(--primary); padding-left: 30px; position: relative; padding-bottom: 40px;">
+                        <span class="resume-dot"
+                            style="position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--bg-darker); border: 2px solid var(--primary); left: -9px; top: 0;"></span>
+                        <h4 class="brand-font" style="font-size: 1.25rem;">Backend Development Course</h4>
+                        <h5
+                            style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.05); display: inline-block; padding: 4px 12px; border-radius: 20px;">
+                            Jan 2022 - Dec 2022</h5>
+                        <p class="text-light mb-2"><em>ICS Computer Academy</em></p>
+                        <p class="text-light" style="line-height: 1.6; margin-bottom: 0;">Intensive specialized training in backend technologies, databases, APIs, and modern development workflows.</p>
+                    </div>
+
+                    <div class="resume-item"
+                        style="border-left: 2px solid var(--primary); padding-left: 30px; position: relative; padding-bottom: 40px;">
+                        <span class="resume-dot"
+                            style="position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--bg-darker); border: 2px solid var(--primary); left: -9px; top: 0;"></span>
+                        <h4 class="brand-font" style="font-size: 1.25rem;">Higher Secondary School</h4>
+                        <h5
+                            style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.05); display: inline-block; padding: 4px 12px; border-radius: 20px;">
+                            Mar 2017 - Jul 2018</h5>
+                        <p class="text-light mb-2"><em>S.K.N.D.S.P. Senior Secondary School, Jaipur</em></p>
+                    </div>
+
+                    <div class="resume-item"
+                        style="border-left: 2px solid var(--primary); padding-left: 30px; position: relative; padding-bottom: 0;">
+                        <span class="resume-dot"
+                            style="position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--bg-darker); border: 2px solid var(--primary); left: -9px; top: 0;"></span>
+                        <h4 class="brand-font" style="font-size: 1.25rem;">Secondary School</h4>
+                        <h5
+                            style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.05); display: inline-block; padding: 4px 12px; border-radius: 20px;">
+                            Mar 2015 - May 2016</h5>
+                        <p class="text-light mb-2"><em>S.K.N.D.S.P. Senior Secondary School, Jaipur</em></p>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-lg-9 fade-up mb-4" style="transition-delay: 0.2s">
+                    <h3 class="mb-4 brand-font"><i class="fas fa-briefcase text-secondary me-3"></i>Experience</h3>
+
+                    <div class="resume-item"
+                        style="border-left: 2px solid var(--secondary); padding-left: 30px; position: relative; padding-bottom: 0;">
+                        <span class="resume-dot"
+                            style="position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--bg-darker); border: 2px solid var(--secondary); left: -9px; top: 0;"></span>
+                        <h4 class="brand-font" style="font-size: 1.25rem;">Mid-Senior Backend Developer</h4>
+                        <h5
+                            style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px; background: rgba(255,255,255,0.05); display: inline-block; padding: 4px 12px; border-radius: 20px;">
+                            Nov 2022 – Present</h5>
+                        <p class="text-light mb-2"><em>Next Big Technology Pvt. Ltd., Jaipur</em></p>
+                        <ul class="text-light ps-3" style="line-height: 1.6; margin-bottom: 0;">
+                            <li>Managed development milestones from initial steps through final delivery.</li>
+                            <li>Consulted with engineering team members to determine system loads and develop improvement plans.</li>
+                            <li>Reviewed code, debugged problems and corrected issues.</li>
+                            <li>Owned more than 3 projects per year from initial research and conceptual design through testing and implementation phases.</li>
+                            <li>Designed and executed security measures such as firewalls and encryption.</li>
+                            <li>Planned and engineered RESTful web services to manipulate dynamic datasets.</li>
+                            <li>Discussed project progress with customers, collected feedback on different stages and directly addressed concerns.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">My Services</h2>
+            <div class="row g-4 mt-4">
+
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-3 fade-up">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <h4 class="service-title brand-font">PHP Development</h4>
+                        <p class="service-desc">Building secure, scalable, and high-performance custom PHP applications with clean and maintainable code.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.1s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <h4 class="service-title brand-font">Laravel Development</h4>
+                        <p class="service-desc">Developing modern web applications and RESTful APIs using Laravel with optimized performance and scalability.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.2s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-bug text-warning"></i>
+                        </div>
+                        <h4 class="service-title brand-font">Bug Fixing & Optimization</h4>
+                        <p class="service-desc">Identifying, debugging, and resolving complex issues while improving application speed and stability.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.3s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code text-success"></i>
+                        </div>
+                        <h4 class="service-title brand-font">Freelance Services</h4>
+                        <p class="service-desc">Providing reliable remote development support, custom solutions, and timely project delivery tailored to client needs.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Selected Works</h2>
+            <div class="row g-4 mt-4">
+
+
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.1s">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-wrapper" style="aspect-ratio: 4/3;">
+                            <img src="assets/img/touring_logo.png" alt="Touring Companions Web App" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://touringcompanions.com/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-3 d-flex flex-column flex-grow-1">
+                            <h3 class="project-title brand-font fs-5 text-truncate" title="Touring Companions">Touring Companions</h3>
+                            <ul class="text-light ps-3 mb-3 flex-grow-1" style="font-size: 0.75rem; line-height: 1.5; padding-right: 5px;">
+                                <li>Multi-panel web app (Admin, Agent, Model, Client) with booking management.</li>
+                                <li>Implemented premium upgrades, Top 10 listing, and auto-renewals.</li>
+                                <li>Developed private messaging & mail functionality.</li>
+                                <li>Configured cron jobs for expiry reminder emails.</li>
+                            </ul>
+                            <div class="tech-stack gap-1 mt-auto flex-wrap">
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Laravel</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">JS</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Bootstrap</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.2s">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-wrapper" style="aspect-ratio: 4/3;">
+                            <img src="assets/img/sendme_grocery.png" alt="Sendme Grocery Platform" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://nbturls.in/sendme/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-3 d-flex flex-column flex-grow-1">
+                            <h3 class="project-title brand-font fs-5 text-truncate" title="Sendme Grocery Platform">Sendme Platform</h3>
+                            <ul class="text-light ps-3 mb-3 flex-grow-1" style="font-size: 0.75rem; line-height: 1.5; padding-right: 5px;">
+                                <li>Grocery platform with integrated web & mobile app architecture.</li>
+                                <li>Developed REST APIs for smooth data integration.</li>
+                                <li>Collaborated to build multiple custom Admin and Vendor paneis.</li>
+                                <li>Implemented scalable backend systems for orders.</li>
+                            </ul>
+                            <div class="tech-stack gap-1 mt-auto flex-wrap">
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Laravel</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Bootstrap</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.3s">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-wrapper" style="aspect-ratio: 4/3;">
+                            <img src="assets/img/verona_mockup.png" alt="Verona In Tour Platform" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://veronaintour.it/dashboard" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-3 d-flex flex-column flex-grow-1">
+                            <h3 class="project-title brand-font fs-5 text-truncate" title="Verona In Tour">Verona In Tour</h3>
+                            <ul class="text-light ps-3 mb-3 flex-grow-1" style="font-size: 0.75rem; line-height: 1.5; padding-right: 5px;">
+                                <li>Backend architecture for a robust hotel & tour booking platform.</li>
+                                <li>Custom admin panel to manage visual assets, categories & listings.</li>
+                                <li>Implemented secure auth systems with user favorites mechanism.</li>
+                                <li>Ensured seamless real-time data flow between UI and backend.</li>
+                            </ul>
+                            <div class="tech-stack gap-1 mt-auto flex-wrap">
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Laravel</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Bootstrap</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.4s">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-wrapper" style="aspect-ratio: 4/3;">
+                            <img src="assets/img/shaarco_mockup.png" alt="Shaarco E-Commerce" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://shaar.ps/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-3 d-flex flex-column flex-grow-1">
+                            <h3 class="project-title brand-font fs-5 text-truncate" title="Shaarco STC">Shaarco E-Commerce</h3>
+                            <ul class="text-light ps-3 mb-3 flex-grow-1" style="font-size: 0.75rem; line-height: 1.5; padding-right: 5px;">
+                                <li>E-commerce platform for industrial automotive spare parts.</li>
+                                <li>Developed and maintained core backend functions & product management.</li>
+                                <li>Implemented scalable solutions for robust product listings and orders.</li>
+                                <li>Ensured efficient high-speed data flow across the complete platform.</li>
+                            </ul>
+                            <div class="tech-stack gap-1 mt-auto flex-wrap">
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Laravel</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">Bootstrap</span>
+                                <span class="tech-badge" style="font-size: 0.65rem; padding: 2px 6px;">HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+   
+    <!-- <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Testimonials</h2>
+            <div class="row g-4 mt-4 justify-content-center">
+
+               
+                <div class="col-md-6 col-lg-4 fade-up">
+                    <div class="team-card text-center h-100 d-flex flex-column">
+                        <div class="team-avatar mx-auto mb-3">
+                            <div class="avatar-placeholder bg-gradient-primary">RK</div>
+                        </div>
+                        <h4 class="team-name brand-font">Rajesh Karwasara</h4>
+                        <p class="team-role text-primary mb-3">Backend Developer</p>
+                        <p class="text-light small fst-italic flex-grow-1" style="line-height: 1.6;">"Working with Rakesh was an excellent experience. He is a highly skilled PHP and Laravel backend developer who delivered a dynamic and efficient web application tailored to our requirements. His attention to detail, clean coding practices, and ability to implement complex features seamlessly were truly impressive. Communication was smooth throughout the project, and he ensured timely delivery with high-quality results. I would definitely collaborate with him again on future projects."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 fade-up" style="transition-delay: 0.1s">
+                    <div class="team-card text-center h-100 d-flex flex-column">
+                        <div class="team-avatar mx-auto mb-3">
+                            <div class="avatar-placeholder bg-gradient-secondary">DK</div>
+                        </div>
+                        <h4 class="team-name brand-font">Deepak Kumawat</h4>
+                        <p class="team-role text-primary mb-3">UX / UI Designer</p>
+                        <p class="text-light small fst-italic flex-grow-1" style="line-height: 1.6;">"Working with Deepak was a great experience. He is a talented and creative designer who truly understands user experience and modern design trends. His ability to transform ideas into visually appealing and user-friendly designs was impressive. He paid close attention to detail and ensured every element aligned perfectly with the project goals. Communication was smooth, and he delivered high-quality work on time. I would highly recommend Deepak for any design-related projects and would love to work with him again."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 fade-up" style="transition-delay: 0.2s">
+                    <div class="team-card text-center h-100 d-flex flex-column">
+                        <div class="team-avatar mx-auto mb-3">
+                            <div class="avatar-placeholder bg-gradient-primary"
+                                style="background: linear-gradient(135deg, #10b981, #059669);">AM</div>
+                        </div>
+                        <h4 class="team-name brand-font">Aman</h4>
+                        <p class="team-role text-primary mb-3">Frontend Developer</p>
+                        <p class="text-light small fst-italic flex-grow-1" style="line-height: 1.6;">"Working with Aman was a fantastic experience. He is a highly skilled UI Developer with a strong eye for design and detail. He transformed complex designs into clean, responsive, and user-friendly interfaces with precision. His expertise in front-end technologies ensured smooth performance across all devices and browsers. Aman’s dedication, timely delivery, and clear communication made the entire process seamless. I would highly recommend him for any UI development work and would gladly collaborate again."</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In Touch</h2>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-8 fade-up">
+                    <div class="contact-wrapper">
+                        <div class="text-center mb-5">
+                            <h3 class="brand-font mb-3 text-white">Let's talk about your next project</h3>
+                            <p class="text-light">Reach out using the details below and I'll get back to you as soon as
+                                possible.</p>
+                        </div>
+                        <div class="row contact-info text-center mt-5">
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card">
+                                    <div class="contact-icon mb-3">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <h5 class="brand-font text-white">Email</h5>
+                                    <p class="mb-0"><a href="mailto:rakeshgothwal2307@gmail.com"
+                                            class="text-white text-decoration-none border-0">rakeshgothwal2307@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card border-x">
+                                    <div class="contact-icon mb-3">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <h5 class="brand-font text-white">Phone</h5>
+                                    <p class="mb-0"><a href="tel:+918955512533"
+                                            class="text-white text-decoration-none border-0">+91-8955512533</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-card">
+                                    <div class="contact-icon mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <h5 class="brand-font text-white">Location</h5>
+                                    <p class="mb-0 text-white">Khora bisal, Jaipur-302012, Rajasthan, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links mb-4 justify-content-center d-flex">
+                <a href="https://github.com/RakeshGothwal2307" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rakesh-gothwal-3152a61a2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2026 Rakesh Gothwal. Designed with <i class="fas fa-heart text-danger ms-1 me-1"></i> & Passion.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 3D Vanilla Tilt JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+    <!-- Custom Scripts for Animation & Interaction -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize 3D Vanilla Tilt on target cards (excluding the main featured project)
+            VanillaTilt.init(document.querySelectorAll(".service-card, .project-card:not(.featured-project), .team-card, .contact-card"), {
+                max: 10,
+                speed: 400,
+                glare: true,
+                "max-glare": 0.2,
+                scale: 1.03
+            });
+
+            // Scroll Animation Observer
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.fade-up').forEach(element => {
+                observer.observe(element);
+            });
+
+            // Navbar transparent to solid on scroll
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.style.background = 'rgba(15, 23, 42, 0.9)';
+                    navbar.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
+                } else {
+                    navbar.style.background = 'rgba(15, 23, 42, 0.7)';
+                    navbar.style.boxShadow = 'none';
+                }
+            });
+
+            // Custom Cursor Logic
+            const cursorDot = document.querySelector("[data-cursor-dot]");
+            const cursorOutline = document.querySelector("[data-cursor-outline]");
+
+            window.addEventListener("mousemove", function(e) {
+                const posX = e.clientX;
+                const posY = e.clientY;
+
+                cursorDot.style.left = `${posX}px`;
+                cursorDot.style.top = `${posY}px`;
+
+                // The outline gracefully trails behind the dot
+                cursorOutline.animate({
+                    left: `${posX}px`,
+                    top: `${posY}px`
+                }, { duration: 500, fill: "forwards" });
+            });
+
+            // Add hover effects for the cursor
+            document.querySelectorAll("a, button, .service-card, .project-card, .form-control").forEach(el => {
+                el.addEventListener("mouseenter", () => {
+                    cursorOutline.style.transform = "translate(-50%, -50%) scale(1.5)";
+                    cursorOutline.style.backgroundColor = "rgba(99, 102, 241, 0.1)";
+                });
+                el.addEventListener("mouseleave", () => {
+                    cursorOutline.style.transform = "translate(-50%, -50%) scale(1)";
+                    cursorOutline.style.backgroundColor = "transparent";
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
